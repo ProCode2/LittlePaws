@@ -212,11 +212,14 @@ img{
     display:none;
   }
   
+  .navbar .container{
+    grid-template-columns: 1fr;
+  }
+  
+  .navbar .container .nav{
+    display : none;
+  }
   .navbar .container .logo{
-    text-align:center;
-    display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
-    
+    text-align: center;
   }
 }
